@@ -19,6 +19,7 @@ function AddFaqs({ getFaqs }) {
 
   const formdatafaqs = new FormData();
   formdatafaqs.append("text_uz", postName); // title_ru ni title_uz ga o'zgartirdim
+  formdatafaqs.append("title_uz", "Kamoliddin"); // title_ru ni title_uz ga o'zgartirdim
 
   const FaqsPosts = async (e) => {
     e.preventDefault();
