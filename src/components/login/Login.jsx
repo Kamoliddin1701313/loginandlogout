@@ -29,7 +29,7 @@ const Login = () => {
             respons?.data?.tokens?.accessToken?.token
           );
           navigate("/categories");
-        //   alert(respons.message);
+          //   alert(respons.message);
         } else {
           alert("Ma'lumotlarni to'g'iri kiriting ! ");
         }
@@ -48,7 +48,7 @@ const Login = () => {
             className="w-full border-[2px] border-gray-500 rounded-[12px] outline-none py-[10px] px-5 pl-12"
             onChange={(e) => setPhone(e.target.value)}
             type="text"
-            placeholder="Phone number"
+            placeholder="Phone number ga 991234567 shuni kiriting!"
           />
         </div>
 
@@ -58,7 +58,7 @@ const Login = () => {
             className="w-full border-[2px] border-gray-500 rounded-[12px] outline-none py-[10px] px-5 pl-12"
             onChange={(e) => setPassword(e.target.value)}
             type="text"
-            placeholder="Password"
+            placeholder="Password ga advokat_admin shuni kiriting!"
           />
         </div>
         <button
